@@ -1,5 +1,5 @@
 <?php
-include('config.php');
+include('config.html');
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
@@ -79,7 +79,7 @@ if (isset($_GET['id'])) {
 </style>
 
 <div class="container">
-    <form action="up.php" method="get">
+    <form action="up.html" method="get">
         <h3>แก้ไขข้อมูล</h3>
         
         <input type="hidden" name="id" value="<?php echo $data->ID; ?>" /> <!-- ซ่อน ID สำหรับการอัพเดท -->
@@ -144,4 +144,4 @@ if (isset($_GET['id'])) {
     </form>
 </div>
 
-<?php include 'jungwat.php';?>
+<?php include 'jungwat.html';?>
