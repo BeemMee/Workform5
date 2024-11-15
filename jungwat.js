@@ -1,4 +1,4 @@
-<script>
+
 // กำหนดข้อมูลอำเภอในแต่ละจังหวัดในรูปแบบของ JavaScript Object
 // คีย์ของแต่ละรายการคือจังหวัด ส่วนค่าของแต่ละรายการเป็น array ของชื่ออำเภอในจังหวัดนั้น ๆ
 const districtsData = {
@@ -70,4 +70,3 @@ function updateSubdistricts() {
     }
 }
 
-    </script>
