@@ -19,7 +19,7 @@
         <th>แก้ไขข้อมูล</th>
     </tr>
     <?php
-    include('config.php');  // ตรวจสอบให้แน่ใจว่า config.php ใช้การเชื่อมต่อกับ PDO
+    include('config.html');  // ตรวจสอบให้แน่ใจว่า config.php ใช้การเชื่อมต่อกับ PDO
 
     $sql = "SELECT * FROM `data_1`";
     $query = $conn->prepare($sql);
